@@ -1,5 +1,3 @@
-
-
 body, html {
   height: 100%;
   font-family: "Inconsolata", sans-serif;
@@ -15,3 +13,4 @@ body, html {
 .menu {
   display: none;
 }
+
