@@ -7,15 +7,15 @@ function Footer() {
                 <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
                     {/* Left */}
                     <div className="me-5 d-none d-lg-block">
-                        <span>Get connected with us on social networks:</span>
+                        <span>Redes Sociales:</span>
                     </div>
                     {/* Left */}
                     {/* Right */}
                     <div>
-                        <a href className="me-4 link-secondary">
+                        <a href className="me-4 dark-link">
                             <i className="fab fa-facebook-f" />
                         </a>
-                        <a href className="me-4 link-secondary">
+                        <a href className="me-4 link-darks">
                             <i className="fab fa-twitter" />
                         </a>
                         <a href className="me-4 link-secondary">
@@ -43,82 +43,76 @@ function Footer() {
                             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                                 {/* Content */}
                                 <h6 className="text-uppercase fw-bold mb-4">
-                                    <i className="fas fa-gem me-3 text-secondary" />Company name
+                                    <i className="fas fa-gem me-3 text-secondary" />KEEP & BITE
                                 </h6>
                                 <p>
-                                    Here you can use rows and columns to organize your footer content. Lorem ipsum
-                                    dolor sit amet, consectetur adipisicing elit.
+                                    Te acompañamos en tdoso los momentos, desde llevar un desayuno, donas o pedidos especiales a domicilio, hasta en tus mejores festejos. 
                                 </p>
                             </div>
                             {/* Grid column */}
                             {/* Grid column */}
                             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                                 {/* Links */}
-                                <h6 className="text-uppercase fw-bold mb-4">
-                                    Products
+                                {/* <h6 className="text-uppercase fw-bold mb-4">
+                                    Eventos
                                 </h6>
                                 <p>
-                                    <a href="#!" className="text-reset">Angular</a>
+                                    <a href="#!" className="text-reset">Desayunos</a>
                                 </p>
                                 <p>
-                                    <a href="#!" className="text-reset">React</a>
+                                    <a href="#!" className="text-reset">Donas a domicilio</a>
                                 </p>
                                 <p>
-                                    <a href="#!" className="text-reset">Vue</a>
+                                    <a href="#!" className="text-reset">Eventos Automotrices</a>
                                 </p>
                                 <p>
-                                    <a href="#!" className="text-reset">Laravel</a>
-                                </p>
+                                    <a href="#!" className="text-reset">XV Años</a>
+                                </p> */}
                             </div>
                             {/* Grid column */}
                             {/* Grid column */}
                             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                                 {/* Links */}
-                                <h6 className="text-uppercase fw-bold mb-4">
-                                    Useful links
+                                {/* <h6 className="text-uppercase fw-bold mb-4">
+                                    Anunciate aqui
                                 </h6>
                                 <p>
-                                    <a href="#!" className="text-reset">Pricing</a>
+                                    <a href="#!" className="text-reset">Anuncio 1</a>
                                 </p>
                                 <p>
-                                    <a href="#!" className="text-reset">Settings</a>
+                                    <a href="#!" className="text-reset">Anuncio 2</a>
                                 </p>
                                 <p>
-                                    <a href="#!" className="text-reset">Orders</a>
+                                    <a href="#!" className="text-reset">Anuncio 2</a>
                                 </p>
                                 <p>
                                     <a href="#!" className="text-reset">Help</a>
-                                </p>
+                                </p> */}
                             </div>
                             {/* Grid column */}
                             {/* Grid column */}
                             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                                 {/* Links */}
                                 <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-                                <p><i className="fas fa-home me-3 text-secondary" /> New York, NY 10012, US</p>
+                                <p><i className="fas fa-home me-3 text-secondary" /> Guadalajara, Jal</p>
+                                <p><i className="fas fa-home me-3 text-secondary" /> Tequila, Jal</p>
                                 <p>
                                     <i className="fas fa-envelope me-3 text-secondary" />
-                                    info@example.com
+                                    keepandbite@gmail.com
                                 </p>
-                                <p><i className="fas fa-phone me-3 text-secondary" /> + 01 234 567 88</p>
-                                <p><i className="fas fa-print me-3 text-secondary" /> + 01 234 567 89</p>
+                                <p><i className="fas fa-phone me-3 text-secondary" /> + 01 33 17 79 58 46</p>
+                              
                             </div>
                             {/* Grid column */}
                         </div>
                         {/* Grid row */}
                     </div>
                 </section>
-                {/* Section: Links  */}
-                {/* Copyright */}
                 <div className="text-center p-4" style={{ backgroundColor: 'rgba(0, 0, 0, 0.025)' }}>
-                    © 2021 Copyright:
+                    © 2022 Copyright:
                     <a className="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
                 </div>
-                {/* Copyright */}
             </footer>
-            {/* Footer */}
-
-
         </>
     );
 }

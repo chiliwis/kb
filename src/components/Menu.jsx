@@ -1,15 +1,17 @@
+import dos from '../components/imagenes/dos.jpeg';
+
 function Menu () {
     return (  
         <>
          <div className="w3-container" id="menu">
                 <div className="w3-content" style={{ maxWidth: 700 }}>
                   <h5 className="w3-center w3-padding-48"><span className="w3-tag w3-wide">THE MENU</span></h5>
-                  <div className="w3-row w3-center w3-card w3-padding">
+                  <div className="w3-row w3-center w3-card w3-padding w3-orange">
                     <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
-                      <div className="w3-col s6 tablink w3-dark-grey">Postres</div>
+                      <div className="w3-col s6 tablink w3-brown">Postres</div>
                     </a>
                     <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
-                      <div className="w3-col s6 tablink">Pedidos Especiales</div>
+                      <div className="w3-col s6 tablink w3-orange">Pedidos Especiales</div>
                     </a>
                   </div>
                   <div id="Eat" className="w3-container menu w3-padding-48 w3-card" style={{ display: 'block' }}>
@@ -36,7 +38,7 @@ function Menu () {
                     <h5>Pasteles personalizados</h5>
                     <p className="w3-text-grey">De acuerdo a cotizacion $</p>
                   </div>
-                  <img src="https://www.w3schools.com/w3images/coffeehouse2.jpg" style={{ width: '100%', maxWidth: 1000, marginTop: 32 }} alt="no hay imagen" />
+                  <img src={dos} style={{ width: '100%', maxWidth: 1000, marginTop: 32 }} alt="no hay imagen" />
                 </div>
               </div>
         </>
