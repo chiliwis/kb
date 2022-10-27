@@ -1,35 +1,21 @@
 
 import './App.css';
-import Historia from './components/Historia';
-import MainTitle from './components/MainTitle';
 import TopBar from './components/TopBar';
-import Menu from './components/Menu';
-import Donde from './components/Donde';
-import Reservas from './components/Reservas';
 import Footer from './components/Footer';
+import { BrowserRouter } from 'react-router-dom';
+import AppRouter from './router/AppRouter';
 
 
 
 function App() {
   return (
     <>
-      <div>
-        <div>
-          <TopBar />
-          <MainTitle />
-          <Historia />
-          <Menu />
-        </div>
-
-        <div>
-          <Donde />
-          <Reservas />
-          <Footer />
-
-        </div>
-      </div>
+      <BrowserRouter>
+        <TopBar />
+        <AppRouter />
+        <Footer />
+      </BrowserRouter>
     </>
-
   );
 }
 
