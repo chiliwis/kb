@@ -16,7 +16,7 @@ function App() {
       <div>
         <div>
           <TopBar />
-          {/* <MainTitle /> */}
+          <MainTitle />
           <Historia />
           <Menu />
         </div>
