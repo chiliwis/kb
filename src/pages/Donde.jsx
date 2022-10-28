@@ -1,3 +1,6 @@
+import React from "react";
+import tequila from "../components/imagenes/tequila.png"
+
 function Donde() {
     return (
         

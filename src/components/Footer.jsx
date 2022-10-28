@@ -1,7 +1,9 @@
+import React from "react";
+
 function Footer() {
     return (
         <>
-        
+
             <footer className="text-center text-lg-start bg-light-grey text-muted">
                 {/* Section: Social media */}
                 <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -46,7 +48,7 @@ function Footer() {
                                     <i className="fas fa-gem me-3 text-secondary" />KEEP & BITE
                                 </h6>
                                 <p>
-                                    Te acompañamos en tdoso los momentos, desde llevar un desayuno, donas o pedidos especiales a domicilio, hasta en tus mejores festejos. 
+                                    Te acompañamos en tdoso los momentos, desde llevar un desayuno, donas o pedidos especiales a domicilio, hasta en tus mejores festejos.
                                 </p>
                             </div>
                             {/* Grid column */}
@@ -101,7 +103,7 @@ function Footer() {
                                     keepandbite@gmail.com
                                 </p>
                                 <p><i className="fas fa-phone me-3 text-secondary" /> + 01 33 17 79 58 46</p>
-                              
+
                             </div>
                             {/* Grid column */}
                         </div>
