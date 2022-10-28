@@ -1,6 +1,6 @@
 function Donde() {
     return (
-        <>
+        
             <div className="w3-container" id="where" style={{ paddingBottom: 32 }}>
                 <div className="w3-content" style={{ maxWidth: 700 }}>
                     <h5 className="w3-center w3-padding-48"><span className="w3-tag w3-wide">DONDE ESTAMOS</span></h5>
@@ -10,7 +10,7 @@ function Donde() {
 
                 </div>
             </div>
-        </>
+        
     );
 }
 

@@ -1,9 +1,14 @@
+
+
 function Home() {
     return (
-        <>
+        <div>
             <Historia />
             <MainTitle />
-        </>
+
+        </div>
+
+
     );
 }
 

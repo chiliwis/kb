@@ -1,11 +1,11 @@
-import dos from '../components/imagenes/dos.jpeg';
+// import dos from '../components/imagenes/dos.jpeg';
 
-function Menu () {
-    return (  
-        <>
+// function Menu () {
+//     return (  
+//         <>
         
-        </>
-    );
-}
+//         </>
+//     );
+// }
 
-export default Menu ;
+// export default Menu ;

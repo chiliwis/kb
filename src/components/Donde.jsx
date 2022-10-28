@@ -1,13 +1,13 @@
-import tequila from '../components/imagenes/tequila.png';
+// import tequila from '../components/imagenes/tequila.png';
 
-function Donde() {
-    return ( 
-        <>
+// function Donde() {
+//     return ( 
+//         <>
             
-            </>
+//             </>
 
 
-            );
-}
+//             );
+// }
 
-            export default Donde ;
+//             export default Donde ;

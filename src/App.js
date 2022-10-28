@@ -12,7 +12,9 @@ function App() {
     <>
       <BrowserRouter>
         <TopBar />
-        <AppRouter />
+        <AppRouter>
+          
+        </AppRouter>
         <Footer />
       </BrowserRouter>
     </>

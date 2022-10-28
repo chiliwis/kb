@@ -1,10 +1,10 @@
-function Reservas() {
-    return (
-        <>
+// function Reservas() {
+//     return (
+//         <>
            
-        </>
+//         </>
 
-    );
-}
+//     );
+// }
 
-export default Reservas;
+// export default Reservas;

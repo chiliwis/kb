@@ -24,4 +24,4 @@ function Historia () {
      );
 }
 
-export default Historia
+export default Historia;
