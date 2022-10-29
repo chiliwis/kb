@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 function Acerca () {
     return ( 
         <>
@@ -14,8 +13,6 @@ function Acerca () {
             </div>
           </div>
         </>
-
-
      );
 }
 

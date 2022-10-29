@@ -1,5 +1,5 @@
 import React from "react";
-import uno from '../components/imagenes/uno.jpeg';
+// import uno from '../components/imagenes/uno.jpeg';
 
 function Menu() {
   return (
@@ -9,7 +9,7 @@ function Menu() {
           <h5 className="w3-center w3-padding-48">
             <span className="w3-tag w3-wide">THE MENU</span>
           </h5>
-          <div className="w3-row w3-center w3-card w3-padding w3-orange">
+          {/* <div className="w3-row w3-center w3-card w3-padding w3-orange">
             <a
               href="javascript:void(0)"
               onclick="openMenu(event, 'Eat');"
@@ -22,7 +22,7 @@ function Menu() {
                 Pedidos Especiales
               </div>
             </a>
-          </div>
+          </div> */}
           <div
             id="Eat"
             className="w3-container menu w3-padding-48 w3-card"
@@ -80,7 +80,7 @@ function Menu() {
             <h5>Pasteles personalizados</h5>
             <p className="w3-text-grey">De acuerdo a cotizacion $</p>
           </div>
-          <img src={uno} style={{ width: "100%", maxWidth: 1000, marginTop: 32 }} className="w3-margin-top" alt="no hay imagen" />
+          {/* <img src={uno} style={{ width: "100%", maxWidth: 1000, marginTop: 32 }} className="w3-margin-top" alt="no hay imagen" /> */}
         </div>
       </div>
     </>

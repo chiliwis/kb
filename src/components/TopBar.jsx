@@ -12,7 +12,7 @@ function TopBar() {
             </NavLink>
           </div>
           <div className="w3-col s3">
-            <NavLink className="w3-button w3-block w3-brown" to="/acerca">
+            <NavLink to="/acerca" className="w3-button w3-block w3-brown">
               HISTORIA
             </NavLink>
           </div>
