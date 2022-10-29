@@ -13,7 +13,6 @@ function AppRouter() {
         <Route path="acerca" element={<Acerca />} />
         <Route path="menu" element={<Menu />} />
         <Route path="reservas" element={<Reservas />} />
-
         <Route path="/" element={<Navigate to="/home" />} />
       </Routes>
     </>
