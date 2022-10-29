@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Historia () {
+function Acerca () {
     return ( 
         <>
           <div className="w3-container" id="intro">
@@ -19,4 +19,4 @@ function Historia () {
      );
 }
 
-export default Historia;
+export default Acerca;
